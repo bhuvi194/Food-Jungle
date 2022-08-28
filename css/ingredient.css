@@ -1,0 +1,51 @@
+
+
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+
+.box{
+    position: relative;
+    height: 900px;
+    width: auto;
+    background-color: rgba(158, 170, 194, 0.884);
+    margin: 0 auto;
+}
+
+.small-box{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(248, 246, 248);
+    opacity: 0.3;
+    margin-top:50px;
+    margin: auto;
+    top: -150px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+.text{
+    margin-top: 10px;
+}
+.quote{
+    margin-top: 60px;
+    word-spacing: 10px;
+}
+
+@media  screen and (max-width: 947px) {
+    .tile-wrapper-tiles{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media  screen and (max-width:1800px) {
+    .tile-wrapper-tiles{
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+}
